@@ -6,8 +6,8 @@ function bitwise_and(){
         for (var z = 0; z < x.length; z++){
             a[z]=parseInt(x[z]);
             b[z]=parseInt(y[z]);
-            var app1 = a[0] & b [0];
-            var app2 = a[1] & b [1];
+            var string1 = a[0] & b [0];
+            var string2 = a[1] & b [1];
         }
-    document.write("[ "+app1+" , "+app2+" ]");
+    document.write("[ "+string1+" , "+string2+" ]");
 }
